@@ -2,10 +2,19 @@ const translations = {
   en: {
     metaTitle: "Low Carb Swiss | Keto, Carnivore and Low-Carb Community Switzerland",
     metaDescription: "Low Carb Swiss is a Switzerland-based community for low-carb, keto and carnivore lifestyles, local events, food sourcing, recipes and member resources.",
+    "meta.foodMap.title": "Swiss Food Map | Low Carb Swiss",
+    "meta.foodMap.description": "Explore Swiss low-carb-friendly restaurants, butchers, farms, shops, markets and meat-cut sources from Low Carb Swiss.",
+    "meta.about.title": "About | Low Carb Swiss",
+    "meta.about.description": "A concise overview of Low Carb Swiss, a Switzerland-based low-carb, keto and carnivore community for local events, food sourcing and peer exchange.",
+    "meta.events.title": "Events | Low Carb Swiss",
+    "meta.events.description": "Explore Low Carb Swiss meetups, dinners, walks, talks, workshops and local low-carb community gatherings in Switzerland.",
+    "meta.member.title": "Member Area | Low Carb Swiss",
+    "meta.member.description": "Join the Low Carb Swiss member area for updates, invitations, local groups and practical Swiss low-carb resources.",
     "brand.tagline": "Community · Food · Events",
+    "nav.about": "About",
     "nav.community": "Community",
     "nav.events": "Events",
-    "nav.map": "Swiss map",
+    "nav.map": "Food map",
     "nav.roadmap": "Member area",
     "nav.cta": "Become a member",
     "hero.eyebrow": "Switzerland's low-carb community",
@@ -16,6 +25,21 @@ const translations = {
     "intro.label": "Built for Switzerland",
     "intro.title": "A friendly umbrella for low-carb, keto, animal-based and carnivore lifestyles.",
     "intro.copy": "Low Carb Swiss is practical, social and non-medical: local meetups, food ideas, Swiss sourcing, recipes, challenges and peer support.",
+    "explore.label": "Start here",
+    "explore.title": "Explore Low Carb Swiss",
+    "explore.copy": "Community, events, food map and membership.",
+    "explore.about.title": "About the community",
+    "explore.about.copy": "A short overview of what Low Carb Swiss is, how it works and where the boundaries are.",
+    "explore.about.action": "Read about Low Carb Swiss",
+    "explore.map.title": "Swiss food map",
+    "explore.map.copy": "Browse restaurants, shops, farms, butchers and meat-cut sources that fit low-carb life.",
+    "explore.map.action": "Open the map",
+    "explore.events.title": "Events",
+    "explore.events.copy": "See how meetups, dinners, walks, workshops and local groups can fit together.",
+    "explore.events.action": "View events",
+    "explore.member.title": "Membership",
+    "explore.member.copy": "Leave your details for membership updates, invitations and local group news.",
+    "explore.member.action": "Request membership",
     "community.label": "Community pillars",
     "community.title": "What members can do here",
     "community.copy": "Find local people, share practical tips, discover Swiss food sources and join events with others who care about low-carb, keto and carnivore living.",
@@ -98,15 +122,50 @@ const translations = {
     "form.submit": "Request membership",
     "notice.title": "Community boundary",
     "notice.copy": "Low Carb Swiss is for peer exchange and lifestyle community. It does not provide individual medical advice. People using medication, living with medical conditions, pregnancy, eating disorders or complex health histories should discuss dietary changes with a qualified clinician.",
+    "about.label": "About Low Carb Swiss",
+    "about.title": "A welcoming, local home for low-carb life in Switzerland.",
+    "about.copy": "Low Carb Swiss is a practical community for people interested in low-carb, keto, animal-based and carnivore ways of eating.",
+    "about.links.label": "Explore",
+    "about.links.title": "Explore Low Carb Swiss",
+    "about.links.copy": "Community, events, food map and membership.",
+    "about.link.home.title": "Home",
+    "about.link.home.copy": "The simple entry point for the project, events and membership.",
+    "about.link.home.action": "Go home",
+    "about.link.map.title": "Swiss food map",
+    "about.link.map.copy": "Find low-carb-friendly restaurants, farms, butchers, shops and meat-cut sources.",
+    "about.link.map.action": "Open map",
+    "about.link.events.title": "Events",
+    "about.link.events.copy": "See the shape of meetups, dinners, walks, talks and workshops.",
+    "about.link.events.action": "View events",
+    "about.link.join.title": "Membership",
+    "about.link.join.copy": "Request updates, invitations and local group news.",
+    "about.link.join.action": "Request membership",
+    "about.principles.label": "How it works",
+    "about.principles.title": "Short, practical and community-led.",
+    "about.principle.local.title": "Local first",
+    "about.principle.local.copy": "The focus is Switzerland: cantons, languages, restaurants, farms, shops and meetups people can actually use.",
+    "about.principle.practical.title": "Practical support",
+    "about.principle.practical.copy": "Members can share meals, sourcing tips, travel ideas, recipes, challenges and low-carb troubleshooting.",
+    "about.principle.peer.title": "Peer exchange",
+    "about.principle.peer.copy": "The community is for experience and connection. Personal medical decisions stay with qualified clinicians.",
     "footer.copy": "Community content, events and peer exchange."
   },
   de: {
     metaTitle: "Low Carb Swiss | Keto-, Carnivore- und Low-Carb-Community Schweiz",
     metaDescription: "Low Carb Swiss ist eine Schweizer Community für Low-Carb-, Keto- und Carnivore-Lebensstile, lokale Events, Lebensmittelquellen, Rezepte und Mitgliederressourcen.",
+    "meta.foodMap.title": "Schweizer Food-Karte | Low Carb Swiss",
+    "meta.foodMap.description": "Entdecke Schweizer Low-Carb-freundliche Restaurants, Metzgereien, Bauernhöfe, Läden, Märkte und Bezugsquellen für Fleischstücke von Low Carb Swiss.",
+    "meta.about.title": "Über uns | Low Carb Swiss",
+    "meta.about.description": "Eine kurze Übersicht über Low Carb Swiss, eine Schweizer Low-Carb-, Keto- und Carnivore-Community für lokale Events, Food-Sourcing und Peer-Austausch.",
+    "meta.events.title": "Events | Low Carb Swiss",
+    "meta.events.description": "Entdecke Low Carb Swiss Treffen, Abendessen, Spaziergänge, Vorträge, Workshops und lokale Low-Carb-Community-Events in der Schweiz.",
+    "meta.member.title": "Mitgliederbereich | Low Carb Swiss",
+    "meta.member.description": "Werde Teil des Low Carb Swiss Mitgliederbereichs für Updates, Einladungen, lokale Gruppen und praktische Schweizer Low-Carb-Ressourcen.",
     "brand.tagline": "Community · Essen · Events",
+    "nav.about": "Über uns",
     "nav.community": "Community",
     "nav.events": "Events",
-    "nav.map": "Schweizer Karte",
+    "nav.map": "Food-Karte",
     "nav.roadmap": "Mitgliederbereich",
     "nav.cta": "Mitglied werden",
     "hero.eyebrow": "Die Schweizer Low-Carb-Community",
@@ -117,6 +176,21 @@ const translations = {
     "intro.label": "Für die Schweiz gebaut",
     "intro.title": "Ein freundliches Dach für Low-Carb, Keto, animal-based und Carnivore.",
     "intro.copy": "Low Carb Swiss ist praktisch, sozial und nicht-medizinisch: lokale Treffen, Essensideen, Schweizer Bezugsquellen, Rezepte, Challenges und Peer-Support.",
+    "explore.label": "Start hier",
+    "explore.title": "Low Carb Swiss entdecken",
+    "explore.copy": "Community, Events, Food-Karte und Mitgliedschaft.",
+    "explore.about.title": "Über die Community",
+    "explore.about.copy": "Ein kurzer Überblick, was Low Carb Swiss ist, wie es funktioniert und wo die Grenzen liegen.",
+    "explore.about.action": "Über Low Carb Swiss lesen",
+    "explore.map.title": "Schweizer Food-Karte",
+    "explore.map.copy": "Entdecke Restaurants, Läden, Höfe, Metzgereien und Fleischstück-Quellen für Low-Carb.",
+    "explore.map.action": "Karte öffnen",
+    "explore.events.title": "Events",
+    "explore.events.copy": "Sieh, wie Treffen, Abendessen, Spaziergänge, Workshops und lokale Gruppen zusammenpassen.",
+    "explore.events.action": "Events ansehen",
+    "explore.member.title": "Mitgliedschaft",
+    "explore.member.copy": "Hinterlasse deine Angaben für Membership-Updates, Einladungen und lokale Gruppennachrichten.",
+    "explore.member.action": "Mitgliedschaft anfragen",
     "community.label": "Community-Säulen",
     "community.title": "Was Mitglieder hier tun können",
     "community.copy": "Finde Menschen in deiner Nähe, teile praktische Tipps, entdecke Schweizer Bezugsquellen und nimm an Events mit anderen teil, die Low-Carb, Keto und Carnivore leben.",
@@ -199,15 +273,50 @@ const translations = {
     "form.submit": "Mitgliedschaft anfragen",
     "notice.title": "Community-Grenze",
     "notice.copy": "Low Carb Swiss ist für Peer-Austausch und Lifestyle-Community gedacht. Es bietet keine individuelle medizinische Beratung. Menschen mit Medikamenten, Erkrankungen, Schwangerschaft, Essstörungen oder komplexer Vorgeschichte sollten Ernährungsänderungen mit einer qualifizierten Fachperson besprechen.",
+    "about.label": "Über Low Carb Swiss",
+    "about.title": "Ein einladender, lokaler Ort für Low-Carb-Leben in der Schweiz.",
+    "about.copy": "Low Carb Swiss ist eine praktische Community für Menschen, die sich für Low-Carb, Keto, animal-based und Carnivore interessieren.",
+    "about.links.label": "Entdecken",
+    "about.links.title": "Low Carb Swiss entdecken",
+    "about.links.copy": "Community, Events, Food-Karte und Mitgliedschaft.",
+    "about.link.home.title": "Startseite",
+    "about.link.home.copy": "Der einfache Einstieg in Projekt, Events und Mitgliedschaft.",
+    "about.link.home.action": "Zur Startseite",
+    "about.link.map.title": "Schweizer Food-Karte",
+    "about.link.map.copy": "Finde Low-Carb-freundliche Restaurants, Höfe, Metzgereien, Läden und Quellen für Fleischstücke.",
+    "about.link.map.action": "Karte öffnen",
+    "about.link.events.title": "Events",
+    "about.link.events.copy": "Sieh die Form von Treffen, Abendessen, Spaziergängen, Vorträgen und Workshops.",
+    "about.link.events.action": "Events ansehen",
+    "about.link.join.title": "Mitgliedschaft",
+    "about.link.join.copy": "Erhalte Updates, Einladungen und Nachrichten aus lokalen Gruppen.",
+    "about.link.join.action": "Mitgliedschaft anfragen",
+    "about.principles.label": "So funktioniert es",
+    "about.principles.title": "Kurz, praktisch und community-geführt.",
+    "about.principle.local.title": "Lokal zuerst",
+    "about.principle.local.copy": "Im Fokus steht die Schweiz: Kantone, Sprachen, Restaurants, Höfe, Läden und Treffen, die Menschen wirklich nutzen können.",
+    "about.principle.practical.title": "Praktische Unterstützung",
+    "about.principle.practical.copy": "Mitglieder können Mahlzeiten, Bezugsquellen, Reiseideen, Rezepte, Challenges und Low-Carb-Troubleshooting teilen.",
+    "about.principle.peer.title": "Peer-Austausch",
+    "about.principle.peer.copy": "Die Community ist für Erfahrung und Verbindung da. Persönliche medizinische Entscheidungen bleiben bei qualifizierten Fachpersonen.",
     "footer.copy": "Community-Inhalte, Events und Peer-Austausch."
   },
   fr: {
     metaTitle: "Low Carb Swiss | Communauté keto, carnivore et low-carb en Suisse",
     metaDescription: "Low Carb Swiss est une communauté suisse pour les modes de vie low-carb, keto et carnivore, avec événements locaux, sources alimentaires, recettes et ressources membres.",
+    "meta.foodMap.title": "Carte alimentaire suisse | Low Carb Swiss",
+    "meta.foodMap.description": "Explorez les restaurants, boucheries, fermes, magasins, marchés et sources de morceaux de viande compatibles low-carb en Suisse avec Low Carb Swiss.",
+    "meta.about.title": "À propos | Low Carb Swiss",
+    "meta.about.description": "Un aperçu concis de Low Carb Swiss, une communauté suisse low-carb, keto et carnivore pour événements locaux, sources alimentaires et échange entre pairs.",
+    "meta.events.title": "Événements | Low Carb Swiss",
+    "meta.events.description": "Explorez les rencontres, dîners, marches, conférences, ateliers et événements locaux low-carb de Low Carb Swiss.",
+    "meta.member.title": "Espace membre | Low Carb Swiss",
+    "meta.member.description": "Rejoignez l'espace membre Low Carb Swiss pour les mises à jour, invitations, groupes locaux et ressources low-carb suisses.",
     "brand.tagline": "Communauté · Alimentation · Événements",
+    "nav.about": "À propos",
     "nav.community": "Communauté",
     "nav.events": "Événements",
-    "nav.map": "Carte suisse",
+    "nav.map": "Carte alimentaire",
     "nav.roadmap": "Espace membre",
     "nav.cta": "Devenir membre",
     "hero.eyebrow": "La communauté low-carb en Suisse",
@@ -218,6 +327,21 @@ const translations = {
     "intro.label": "Pensé pour la Suisse",
     "intro.title": "Un espace ouvert pour les modes de vie low-carb, keto, animal-based et carnivore.",
     "intro.copy": "Low Carb Swiss est pratique, social et non médical: rencontres locales, idées alimentaires, sources suisses, recettes, défis et soutien entre pairs.",
+    "explore.label": "Commencer",
+    "explore.title": "Explorer Low Carb Swiss",
+    "explore.copy": "Communauté, événements, carte alimentaire et adhésion.",
+    "explore.about.title": "À propos de la communauté",
+    "explore.about.copy": "Un bref aperçu de Low Carb Swiss, de son fonctionnement et de ses limites.",
+    "explore.about.action": "Lire l'aperçu",
+    "explore.map.title": "Carte alimentaire suisse",
+    "explore.map.copy": "Parcourez restaurants, magasins, fermes, boucheries et sources de morceaux adaptés au low-carb.",
+    "explore.map.action": "Ouvrir la carte",
+    "explore.events.title": "Événements",
+    "explore.events.copy": "Voyez comment rencontres, dîners, marches, ateliers et groupes locaux peuvent s'articuler.",
+    "explore.events.action": "Voir les événements",
+    "explore.member.title": "Adhésion",
+    "explore.member.copy": "Laissez vos coordonnées pour les mises à jour, invitations et nouvelles des groupes locaux.",
+    "explore.member.action": "Demander l'adhésion",
     "community.label": "Piliers de la communauté",
     "community.title": "Ce que les membres peuvent faire ici",
     "community.copy": "Trouvez des personnes près de chez vous, partagez des conseils pratiques, découvrez des sources alimentaires suisses et participez à des événements avec d'autres passionnés de low-carb, keto et carnivore.",
@@ -300,15 +424,50 @@ const translations = {
     "form.submit": "Demander l'adhésion",
     "notice.title": "Limite communautaire",
     "notice.copy": "Low Carb Swiss est destiné à l'échange entre pairs et à la communauté lifestyle. Il ne fournit pas de conseil médical individuel. Les personnes sous médicaments, avec maladies, grossesse, troubles alimentaires ou antécédents complexes devraient discuter tout changement alimentaire avec un professionnel qualifié.",
+    "about.label": "À propos de Low Carb Swiss",
+    "about.title": "Un lieu accueillant et local pour la vie low-carb en Suisse.",
+    "about.copy": "Low Carb Swiss est une communauté pratique pour les personnes intéressées par les modes d'alimentation low-carb, keto, animal-based et carnivore.",
+    "about.links.label": "Explorer",
+    "about.links.title": "Explorer Low Carb Swiss",
+    "about.links.copy": "Communauté, événements, carte alimentaire et adhésion.",
+    "about.link.home.title": "Accueil",
+    "about.link.home.copy": "Le point d'entrée simple pour le projet, les événements et l'adhésion.",
+    "about.link.home.action": "Aller à l'accueil",
+    "about.link.map.title": "Carte alimentaire suisse",
+    "about.link.map.copy": "Trouvez restaurants, fermes, boucheries, magasins et sources de morceaux compatibles low-carb.",
+    "about.link.map.action": "Ouvrir la carte",
+    "about.link.events.title": "Événements",
+    "about.link.events.copy": "Découvrez la forme des rencontres, dîners, marches, conférences et ateliers.",
+    "about.link.events.action": "Voir les événements",
+    "about.link.join.title": "Adhésion",
+    "about.link.join.copy": "Recevez mises à jour, invitations et nouvelles des groupes locaux.",
+    "about.link.join.action": "Demander l'adhésion",
+    "about.principles.label": "Fonctionnement",
+    "about.principles.title": "Court, pratique et porté par la communauté.",
+    "about.principle.local.title": "Local d'abord",
+    "about.principle.local.copy": "L'accent est mis sur la Suisse: cantons, langues, restaurants, fermes, magasins et rencontres réellement utiles.",
+    "about.principle.practical.title": "Soutien pratique",
+    "about.principle.practical.copy": "Les membres peuvent partager repas, sources, idées de voyage, recettes, défis et astuces low-carb.",
+    "about.principle.peer.title": "Échange entre pairs",
+    "about.principle.peer.copy": "La communauté sert à partager expériences et liens. Les décisions médicales personnelles restent avec des professionnels qualifiés.",
     "footer.copy": "Contenu communautaire, événements et échange entre pairs."
   },
   it: {
     metaTitle: "Low Carb Swiss | Community keto, carnivore e low-carb in Svizzera",
     metaDescription: "Low Carb Swiss è una community svizzera per stili di vita low-carb, keto e carnivore, con eventi locali, fonti alimentari, ricette e risorse per membri.",
+    "meta.foodMap.title": "Mappa alimentare svizzera | Low Carb Swiss",
+    "meta.foodMap.description": "Esplora ristoranti, macellerie, fattorie, negozi, mercati e fonti di tagli di carne low-carb-friendly in Svizzera con Low Carb Swiss.",
+    "meta.about.title": "Chi siamo | Low Carb Swiss",
+    "meta.about.description": "Una panoramica concisa di Low Carb Swiss, community svizzera low-carb, keto e carnivore per eventi locali, fonti alimentari e scambio tra pari.",
+    "meta.events.title": "Eventi | Low Carb Swiss",
+    "meta.events.description": "Esplora incontri, cene, camminate, talk, workshop ed eventi locali low-carb di Low Carb Swiss in Svizzera.",
+    "meta.member.title": "Area membri | Low Carb Swiss",
+    "meta.member.description": "Entra nell'area membri Low Carb Swiss per aggiornamenti, inviti, gruppi locali e risorse low-carb svizzere.",
     "brand.tagline": "Community · Cibo · Eventi",
+    "nav.about": "Chi siamo",
     "nav.community": "Community",
     "nav.events": "Eventi",
-    "nav.map": "Mappa svizzera",
+    "nav.map": "Mappa alimentare",
     "nav.roadmap": "Area membri",
     "nav.cta": "Diventa membro",
     "hero.eyebrow": "La community low-carb in Svizzera",
@@ -319,6 +478,21 @@ const translations = {
     "intro.label": "Pensato per la Svizzera",
     "intro.title": "Uno spazio aperto per low-carb, keto, animal-based e carnivore.",
     "intro.copy": "Low Carb Swiss è pratico, sociale e non medico: incontri locali, idee alimentari, fonti svizzere, ricette, challenge e supporto tra pari.",
+    "explore.label": "Inizia qui",
+    "explore.title": "Esplora Low Carb Swiss",
+    "explore.copy": "Community, eventi, mappa alimentare e membership.",
+    "explore.about.title": "La community",
+    "explore.about.copy": "Una breve panoramica di cos'è Low Carb Swiss, come funziona e quali sono i confini.",
+    "explore.about.action": "Leggi di Low Carb Swiss",
+    "explore.map.title": "Mappa alimentare svizzera",
+    "explore.map.copy": "Sfoglia ristoranti, negozi, fattorie, macellerie e fonti di tagli adatti al low-carb.",
+    "explore.map.action": "Apri la mappa",
+    "explore.events.title": "Eventi",
+    "explore.events.copy": "Vedi come incontri, cene, camminate, workshop e gruppi locali possono unirsi.",
+    "explore.events.action": "Vedi eventi",
+    "explore.member.title": "Membership",
+    "explore.member.copy": "Lascia i tuoi dati per aggiornamenti, inviti e notizie dai gruppi locali.",
+    "explore.member.action": "Richiedi membership",
     "community.label": "Pilastri della community",
     "community.title": "Cosa possono fare i membri",
     "community.copy": "Trova persone vicine, condividi consigli pratici, scopri fonti alimentari svizzere e partecipa a eventi con altri interessati a low-carb, keto e carnivore.",
@@ -401,6 +575,32 @@ const translations = {
     "form.submit": "Richiedi membership",
     "notice.title": "Confine della community",
     "notice.copy": "Low Carb Swiss è per scambio tra pari e community lifestyle. Non fornisce consigli medici individuali. Chi usa farmaci, vive con condizioni mediche, gravidanza, disturbi alimentari o storie cliniche complesse dovrebbe discutere cambiamenti alimentari con un professionista qualificato.",
+    "about.label": "Chi siamo",
+    "about.title": "Un luogo accogliente e locale per la vita low-carb in Svizzera.",
+    "about.copy": "Low Carb Swiss è una community pratica per persone interessate ad alimentazione low-carb, keto, animal-based e carnivore.",
+    "about.links.label": "Esplora",
+    "about.links.title": "Esplora Low Carb Swiss",
+    "about.links.copy": "Community, eventi, mappa alimentare e membership.",
+    "about.link.home.title": "Home",
+    "about.link.home.copy": "Il punto di ingresso semplice per progetto, eventi e membership.",
+    "about.link.home.action": "Vai alla home",
+    "about.link.map.title": "Mappa alimentare svizzera",
+    "about.link.map.copy": "Trova ristoranti, fattorie, macellerie, negozi e fonti di tagli low-carb-friendly.",
+    "about.link.map.action": "Apri mappa",
+    "about.link.events.title": "Eventi",
+    "about.link.events.copy": "Scopri la forma di incontri, cene, camminate, talk e workshop.",
+    "about.link.events.action": "Vedi eventi",
+    "about.link.join.title": "Membership",
+    "about.link.join.copy": "Ricevi aggiornamenti, inviti e notizie dai gruppi locali.",
+    "about.link.join.action": "Richiedi membership",
+    "about.principles.label": "Come funziona",
+    "about.principles.title": "Breve, pratico e guidato dalla community.",
+    "about.principle.local.title": "Prima locale",
+    "about.principle.local.copy": "Il focus è la Svizzera: cantoni, lingue, ristoranti, fattorie, negozi e incontri davvero utilizzabili.",
+    "about.principle.practical.title": "Supporto pratico",
+    "about.principle.practical.copy": "I membri possono condividere pasti, fonti, idee di viaggio, ricette, challenge e troubleshooting low-carb.",
+    "about.principle.peer.title": "Scambio tra pari",
+    "about.principle.peer.copy": "La community serve a esperienze e connessioni. Le decisioni mediche personali restano con professionisti qualificati.",
     "footer.copy": "Contenuti community, eventi e scambio tra pari."
   }
 };
@@ -414,6 +614,9 @@ const foodMapTranslations = {
     "directory.searchPlaceholder": "Search city, canton, place or tag",
     "directory.filterAll": "All",
     "directory.count": "{count} places shown",
+    "directory.countCollapsed": "{count} places available",
+    "directory.showPlaces": "Show places",
+    "directory.hidePlaces": "Hide places",
     "directory.noResults": "No places match this search yet.",
     "directory.openSite": "Open website",
     "food.type.butcher": "Butchers",
@@ -440,7 +643,9 @@ const foodMapTranslations = {
     "food.tag.fish": "Fish",
     "food.tag.shop": "Shop",
     "food.tag.farm": "Farm market",
-    "food.tag.curedMeat": "Cured meat"
+    "food.tag.curedMeat": "Cured meat",
+    "food.tag.catering": "Catering",
+    "food.tag.regional": "Regional"
   },
   de: {
     "directory.label": "Starter-Verzeichnis",
@@ -450,6 +655,9 @@ const foodMapTranslations = {
     "directory.searchPlaceholder": "Stadt, Kanton, Ort oder Tag suchen",
     "directory.filterAll": "Alle",
     "directory.count": "{count} Orte angezeigt",
+    "directory.countCollapsed": "{count} Orte verfügbar",
+    "directory.showPlaces": "Orte anzeigen",
+    "directory.hidePlaces": "Orte ausblenden",
     "directory.noResults": "Noch keine Orte für diese Suche.",
     "directory.openSite": "Website öffnen",
     "food.type.butcher": "Metzgereien",
@@ -476,7 +684,9 @@ const foodMapTranslations = {
     "food.tag.fish": "Fisch",
     "food.tag.shop": "Laden",
     "food.tag.farm": "Hofmarkt",
-    "food.tag.curedMeat": "Trockenfleisch"
+    "food.tag.curedMeat": "Trockenfleisch",
+    "food.tag.catering": "Catering",
+    "food.tag.regional": "Regional"
   },
   fr: {
     "directory.label": "Annuaire de départ",
@@ -486,6 +696,9 @@ const foodMapTranslations = {
     "directory.searchPlaceholder": "Chercher ville, canton, lieu ou tag",
     "directory.filterAll": "Tous",
     "directory.count": "{count} lieux affichés",
+    "directory.countCollapsed": "{count} lieux disponibles",
+    "directory.showPlaces": "Afficher les lieux",
+    "directory.hidePlaces": "Masquer les lieux",
     "directory.noResults": "Aucun lieu ne correspond encore à cette recherche.",
     "directory.openSite": "Ouvrir le site",
     "food.type.butcher": "Boucheries",
@@ -512,7 +725,9 @@ const foodMapTranslations = {
     "food.tag.fish": "Poisson",
     "food.tag.shop": "Magasin",
     "food.tag.farm": "Marché fermier",
-    "food.tag.curedMeat": "Viande séchée"
+    "food.tag.curedMeat": "Viande séchée",
+    "food.tag.catering": "Traiteur",
+    "food.tag.regional": "Régional"
   },
   it: {
     "directory.label": "Directory iniziale",
@@ -522,6 +737,9 @@ const foodMapTranslations = {
     "directory.searchPlaceholder": "Cerca città, cantone, luogo o tag",
     "directory.filterAll": "Tutti",
     "directory.count": "{count} luoghi mostrati",
+    "directory.countCollapsed": "{count} luoghi disponibili",
+    "directory.showPlaces": "Mostra luoghi",
+    "directory.hidePlaces": "Nascondi luoghi",
     "directory.noResults": "Nessun luogo corrisponde ancora a questa ricerca.",
     "directory.openSite": "Apri sito",
     "food.type.butcher": "Macellerie",
@@ -548,7 +766,9 @@ const foodMapTranslations = {
     "food.tag.fish": "Pesce",
     "food.tag.shop": "Negozio",
     "food.tag.farm": "Mercato contadino",
-    "food.tag.curedMeat": "Carne secca"
+    "food.tag.curedMeat": "Carne secca",
+    "food.tag.catering": "Catering",
+    "food.tag.regional": "Regionale"
   }
 };
 
@@ -776,14 +996,17 @@ const translatableNodes = document.querySelectorAll("[data-i18n]");
 const placeholderNodes = document.querySelectorAll("[data-i18n-placeholder]");
 const buttons = document.querySelectorAll("[data-lang]");
 const metaDescription = document.querySelector('meta[name="description"]');
+const pageKey = document.body.dataset.page === "food-map" ? "foodMap" : document.body.dataset.page || "home";
 
 function setLanguage(lang) {
   const activeLang = translations[lang] ? lang : "en";
   const copy = translations[activeLang];
+  const title = copy[`meta.${pageKey}.title`] || copy.metaTitle;
+  const description = copy[`meta.${pageKey}.description`] || copy.metaDescription;
 
   document.documentElement.lang = activeLang;
-  document.title = copy.metaTitle;
-  metaDescription.setAttribute("content", copy.metaDescription);
+  document.title = title;
+  metaDescription?.setAttribute("content", description);
 
   translatableNodes.forEach((node) => {
     const value = copy[node.dataset.i18n];
@@ -824,9 +1047,14 @@ const cutsSearchInput = document.querySelector("#cuts-search");
 const foodFilterButtons = document.querySelectorAll("[data-filter]");
 const foodList = document.querySelector("#food-map-list");
 const foodCount = document.querySelector("#food-map-count");
+const foodResultsToggle = document.querySelector("#food-results-toggle");
 const cutsList = document.querySelector("#cuts-list");
 const cutsCount = document.querySelector("#cuts-count");
+const foodDirectory = document.querySelector("#food-directory");
+const mapCityButtons = document.querySelectorAll("[data-city]");
 let activeFoodFilter = "all";
+let foodResultsExpanded = false;
+let activeMapCityFilter = "";
 
 function getCopy(lang, key) {
   return translations[lang]?.[key] || translations.en[key] || key;
@@ -836,7 +1064,9 @@ function normalizeText(value) {
   return String(value)
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase();
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
 }
 
 function escapeHTML(value) {
@@ -881,6 +1111,37 @@ function getEntryCutSearchText(entry) {
   ].join(" ")).join(" ");
 }
 
+function getLocationSearchText(entry) {
+  const city = normalizeText(entry.city);
+  const aliases = [];
+
+  if (city.includes("luzern")) {
+    aliases.push("lucerne");
+  }
+
+  if (city.includes("st gallen")) {
+    aliases.push("saint gallen");
+  }
+
+  if (city.includes("geneva")) {
+    aliases.push("geneve genf");
+  }
+
+  if (city.includes("zurich")) {
+    aliases.push("zuerich zürich");
+  }
+
+  if (entry.canton === "ZG") {
+    aliases.push("zug canton zug");
+  }
+
+  if (entry.canton === "GE") {
+    aliases.push("geneva geneve genf");
+  }
+
+  return aliases.join(" ");
+}
+
 function entryMatchesFilter(entry) {
   if (activeFoodFilter === "farm") {
     return entry.type === "farm" || entry.tags.includes("farmshop");
@@ -899,11 +1160,74 @@ function entryMatchesSearch(entry, query) {
     entry.city,
     entry.canton,
     entry.type,
+    getLocationSearchText(entry),
     ...entry.tags,
     getEntryCutSearchText(entry)
   ].join(" ");
 
   return normalizeText(searchable).includes(query);
+}
+
+function entryMatchesMapCity(entry, city) {
+  if (!city) {
+    return true;
+  }
+
+  const targetCity = normalizeText(city);
+  const entryCity = normalizeText(entry.city);
+  const areaAliases = {
+    basel: ["basel"],
+    bern: ["bern"],
+    chur: ["chur"],
+    geneva: ["geneva", "geneve", "genf", "carouge"],
+    lausanne: ["lausanne"],
+    lugano: ["lugano"],
+    luzern: ["luzern", "lucerne", "kriens", "ebikon"],
+    "st gallen": ["st gallen", "saint gallen"],
+    winterthur: ["winterthur"],
+    zug: ["zug", "baar", "hunenberg", "huenenberg", "unterageri", "unteraegeri"],
+    zurich: ["zurich", "zuerich"]
+  };
+  const cantonAreas = {
+    geneva: "GE",
+    luzern: "LU",
+    zug: "ZG"
+  };
+  const aliases = areaAliases[targetCity] || [targetCity];
+
+  return aliases.some((alias) => entryCity.includes(alias)) || entry.canton === cantonAreas[targetCity];
+}
+
+function setActiveFoodFilter(filter) {
+  activeFoodFilter = filter;
+  foodFilterButtons.forEach((button) => {
+    const isActive = button.dataset.filter === activeFoodFilter;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
+}
+
+function setFoodResultsExpanded(expanded, lang = "en") {
+  foodResultsExpanded = expanded;
+
+  if (foodList) {
+    foodList.hidden = !foodResultsExpanded;
+  }
+
+  if (foodResultsToggle) {
+    foodResultsToggle.setAttribute("aria-expanded", String(foodResultsExpanded));
+    foodResultsToggle.textContent = getCopy(lang, foodResultsExpanded ? "directory.hidePlaces" : "directory.showPlaces");
+  }
+}
+
+function setActiveMapCity(city) {
+  const normalizedCity = normalizeText(city);
+
+  mapCityButtons.forEach((button) => {
+    const isActive = normalizeText(button.dataset.city || "") === normalizedCity;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
 }
 
 function renderFoodMap(lang = "en") {
@@ -912,9 +1236,15 @@ function renderFoodMap(lang = "en") {
   }
 
   const query = normalizeText(foodSearchInput?.value || "");
-  const places = foodEntries.filter((entry) => entryMatchesFilter(entry) && entryMatchesSearch(entry, query));
+  const places = foodEntries.filter((entry) => (
+    entryMatchesFilter(entry) &&
+    entryMatchesMapCity(entry, activeMapCityFilter) &&
+    entryMatchesSearch(entry, query)
+  ));
+  const countKey = foodResultsExpanded ? "directory.count" : "directory.countCollapsed";
 
-  foodCount.textContent = getCopy(lang, "directory.count").replace("{count}", places.length);
+  foodCount.textContent = getCopy(lang, countKey).replace("{count}", places.length);
+  setFoodResultsExpanded(foodResultsExpanded, lang);
 
   if (!places.length) {
     foodList.innerHTML = `<p class="food-empty">${escapeHTML(getCopy(lang, "directory.noResults"))}</p>`;
@@ -950,6 +1280,28 @@ function renderFoodMap(lang = "en") {
       </article>
     `;
   }).join("");
+}
+
+function showDirectoryForCity(city) {
+  if (!foodSearchInput || !city) {
+    return;
+  }
+
+  const activeLang = localStorage.getItem("lowCarbSwissLanguage") || "en";
+
+  activeMapCityFilter = city;
+  foodSearchInput.value = city;
+  setActiveFoodFilter("all");
+  setActiveMapCity(city);
+  setFoodResultsExpanded(true, activeLang);
+  renderFoodMap(activeLang);
+
+  if (window.location.hash !== "#food-directory") {
+    history.replaceState(null, "", "#food-directory");
+  }
+
+  foodDirectory?.scrollIntoView({ behavior: "smooth", block: "start" });
+  foodSearchInput.focus({ preventScroll: true });
 }
 
 function cutMatchesSearch(cut, query, lang) {
@@ -1006,8 +1358,17 @@ function renderCutsMap(lang = "en") {
 }
 
 function setupFoodMap() {
+  foodResultsToggle?.addEventListener("click", () => {
+    const activeLang = localStorage.getItem("lowCarbSwissLanguage") || "en";
+    setFoodResultsExpanded(!foodResultsExpanded, activeLang);
+    renderFoodMap(activeLang);
+  });
+
   foodSearchInput?.addEventListener("input", () => {
     const activeLang = localStorage.getItem("lowCarbSwissLanguage") || "en";
+    activeMapCityFilter = "";
+    setActiveMapCity("");
+    setFoodResultsExpanded(true, activeLang);
     renderFoodMap(activeLang);
   });
 
@@ -1019,15 +1380,17 @@ function setupFoodMap() {
   foodFilterButtons.forEach((button) => {
     button.setAttribute("aria-pressed", String(button.dataset.filter === activeFoodFilter));
     button.addEventListener("click", () => {
-      activeFoodFilter = button.dataset.filter;
-      foodFilterButtons.forEach((filterButton) => {
-        const isActive = filterButton === button;
-        filterButton.classList.toggle("active", isActive);
-        filterButton.setAttribute("aria-pressed", String(isActive));
-      });
-
+      setActiveFoodFilter(button.dataset.filter);
       const activeLang = localStorage.getItem("lowCarbSwissLanguage") || "en";
+      setFoodResultsExpanded(true, activeLang);
       renderFoodMap(activeLang);
+    });
+  });
+
+  mapCityButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", "false");
+    button.addEventListener("click", () => {
+      showDirectoryForCity(button.dataset.city);
     });
   });
 }
@@ -1041,5 +1404,8 @@ const browserLanguage = navigator.language.slice(0, 2).toLowerCase();
 const initialLanguage = savedLanguage || (supportedLanguages.includes(browserLanguage) ? browserLanguage : "en");
 
 setupFoodMap();
-document.querySelector("#year").textContent = new Date().getFullYear();
+const yearNode = document.querySelector("#year");
+if (yearNode) {
+  yearNode.textContent = new Date().getFullYear();
+}
 setLanguage(initialLanguage);

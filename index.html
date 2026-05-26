@@ -8,11 +8,11 @@
       name="description"
       content="Low Carb Swiss is a Switzerland-based community for low-carb, keto and carnivore lifestyles, local events, food sourcing, recipes and member resources."
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=separate-pages-20260517" />
   </head>
-  <body>
+  <body data-page="home">
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Low Carb Swiss home">
+      <a class="brand" href="index.html" aria-label="Low Carb Swiss home">
         <span class="brand-mark">LC</span>
         <span>
           <strong>Low Carb Swiss</strong>
@@ -20,10 +20,10 @@
         </span>
       </a>
       <nav class="main-nav" aria-label="Main navigation">
-        <a href="#community" data-i18n="nav.community">Community</a>
-        <a href="#events" data-i18n="nav.events">Events</a>
-        <a href="#map" data-i18n="nav.map">Swiss map</a>
-        <a href="#roadmap" data-i18n="nav.roadmap">Member area</a>
+        <a id="nav-about" href="about.html" data-i18n="nav.about">About</a>
+        <a id="nav-events" href="events.html" data-i18n="nav.events">Events</a>
+        <a id="nav-food-map" href="food-map.html" data-i18n="nav.map">Food map</a>
+        <a id="nav-member-area" href="member-area.html" data-i18n="nav.roadmap">Member area</a>
       </nav>
       <div class="language-switcher" aria-label="Language">
         <button class="active" type="button" data-lang="en">EN</button>
@@ -31,22 +31,20 @@
         <button type="button" data-lang="fr">FR</button>
         <button type="button" data-lang="it">IT</button>
       </div>
-      <a class="header-action" href="#join" data-i18n="nav.cta">Become a member</a>
+      <a class="header-action" href="member-area.html#join" data-i18n="nav.cta">Become a member</a>
     </header>
 
     <main id="top">
-      <section class="hero">
-        <img src="assets/low-carb-swiss-hero.png" alt="" aria-hidden="true" />
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <p class="eyebrow" data-i18n="hero.eyebrow">Switzerland's low-carb community</p>
+      <section class="section home-hero">
+        <div>
+          <p class="section-label" data-i18n="hero.eyebrow">Switzerland's low-carb community</p>
           <h1 data-i18n="hero.title">Meet people eating low-carb, keto and carnivore in Switzerland.</h1>
-          <p data-i18n="hero.copy">
-            A local community for exchanging ideas, finding Swiss food sources, organizing events, and building a practical lifestyle around real food.
-          </p>
-          <div class="hero-actions">
-            <a class="primary-button" href="#join" data-i18n="hero.primary">Become a member</a>
-            <a class="secondary-button" href="#events" data-i18n="hero.secondary">Explore events</a>
+        </div>
+        <div>
+          <p data-i18n="hero.copy">A local community for exchanging ideas, finding Swiss food sources, organizing events, and building a practical lifestyle around real food.</p>
+          <div class="page-actions">
+            <a class="primary-button" href="member-area.html#join" data-i18n="hero.primary">Become a member</a>
+            <a class="outline-button" href="events.html" data-i18n="hero.secondary">Explore events</a>
           </div>
         </div>
       </section>
@@ -61,233 +59,39 @@
         </p>
       </section>
 
-      <section id="community" class="section">
+      <section class="section link-section" aria-labelledby="explore-title">
         <div class="section-heading">
-          <p class="section-label" data-i18n="community.label">Community pillars</p>
-          <h2 data-i18n="community.title">What members can do here</h2>
-          <p data-i18n="community.copy">
-            Find local people, share practical tips, discover Swiss food sources and join events with others who care about low-carb, keto and carnivore living.
-          </p>
+          <p class="section-label" data-i18n="explore.label">Start here</p>
+          <h2 id="explore-title" data-i18n="explore.title">Explore Low Carb Swiss</h2>
         </div>
-        <div class="feature-grid">
-          <article>
+        <div class="link-grid">
+          <a class="link-card" href="about.html">
             <span>01</span>
-            <h3 data-i18n="feature.directory.title">Member directory</h3>
-            <p data-i18n="feature.directory.copy">Choose what to share in your member profile: canton or city, language, diet style, interests and whether you are open to meetups.</p>
-          </article>
-          <article>
+            <h3 data-i18n="explore.about.title">About the community</h3>
+            <p data-i18n="explore.about.copy">A short overview of what Low Carb Swiss is, how it works and where the boundaries are.</p>
+            <strong data-i18n="explore.about.action">Read about Low Carb Swiss</strong>
+          </a>
+          <a class="link-card" href="food-map.html">
             <span>02</span>
-            <h3 data-i18n="feature.groups.title">Local groups</h3>
-            <p data-i18n="feature.groups.copy">Zurich, Basel, Bern, Geneva, Ticino and regional groups for meetups, hikes, dinners and shared shopping tips.</p>
-          </article>
-          <article>
+            <h3 data-i18n="explore.map.title">Swiss food map</h3>
+            <p data-i18n="explore.map.copy">Browse restaurants, shops, farms, butchers and meat-cut sources that fit low-carb life.</p>
+            <strong data-i18n="explore.map.action">Open the map</strong>
+          </a>
+          <a class="link-card" href="events.html">
             <span>03</span>
-            <h3 data-i18n="feature.discussions.title">Discussion spaces</h3>
-            <p data-i18n="feature.discussions.copy">Separate channels for beginners, carnivore, keto, families, sport, women’s health and metabolic health.</p>
-          </article>
-          <article>
+            <h3 data-i18n="explore.events.title">Events</h3>
+            <p data-i18n="explore.events.copy">See how meetups, dinners, walks, workshops and local groups can fit together.</p>
+            <strong data-i18n="explore.events.action">View events</strong>
+          </a>
+          <a class="link-card" href="member-area.html">
             <span>04</span>
-            <h3 data-i18n="feature.events.title">Events and RSVPs</h3>
-            <p data-i18n="feature.events.copy">Join dinners, walks, talks and cooking evenings, or suggest a meetup in your own area.</p>
-          </article>
-          <article>
-            <span>05</span>
-            <h3 data-i18n="feature.finds.title">Swiss food finds</h3>
-            <p data-i18n="feature.finds.copy">Share restaurants, butchers, farms, shops and travel tips that work for low-carb living.</p>
-          </article>
-          <article>
-            <span>06</span>
-            <h3 data-i18n="feature.challenges.title">Challenges and recipes</h3>
-            <p data-i18n="feature.challenges.copy">Join community challenges, swap meal ideas and collect practical recipes for Swiss daily life.</p>
-          </article>
-        </div>
-        <div class="tutor-panel">
-          <div>
-            <p class="section-label" data-i18n="tutors.label">Low-carb tutors</p>
-            <h2 data-i18n="tutors.title">Practical help for getting started.</h2>
-            <p data-i18n="tutors.copy">
-              Members can access experienced low-carb tutors for everyday troubleshooting: meal setup, shopping, cravings, eating out, electrolytes and staying consistent. Tutor support is practical guidance, not medical care.
-            </p>
-          </div>
-          <div class="tutor-list">
-            <p><strong data-i18n="tutors.item1.title">First-week setup</strong><span data-i18n="tutors.item1.copy">Simple meal ideas, pantry basics and realistic routines.</span></p>
-            <p><strong data-i18n="tutors.item2.title">Troubleshooting</strong><span data-i18n="tutors.item2.copy">Help with cravings, fatigue, social meals, travel and plateaus.</span></p>
-            <p><strong data-i18n="tutors.item3.title">Swiss context</strong><span data-i18n="tutors.item3.copy">Local shopping tips, restaurants, events and food sourcing.</span></p>
-          </div>
+            <h3 data-i18n="explore.member.title">Membership</h3>
+            <p data-i18n="explore.member.copy">Leave your details for membership updates, invitations and local group news.</p>
+            <strong data-i18n="explore.member.action">Request membership</strong>
+          </a>
         </div>
       </section>
 
-      <section id="events" class="events-band">
-        <div>
-          <p class="section-label" data-i18n="events.label">Events</p>
-          <h2 data-i18n="events.title">From online exchange to real Swiss meetups.</h2>
-          <p data-i18n="events.copy">
-            Low Carb Swiss can become the place to organize restaurant dinners, alpine walks, cooking evenings, expert talks and seasonal community challenges.
-          </p>
-        </div>
-        <div class="event-list">
-          <article>
-            <time data-i18n="phase.one">Meetups</time>
-            <strong data-i18n="events.phase1.title">Newsletter and event announcements</strong>
-            <p data-i18n="events.phase1.copy">Join relaxed dinners, walks, coffee meetups and online calls with people nearby.</p>
-          </article>
-          <article>
-            <time data-i18n="phase.two">Groups</time>
-            <strong data-i18n="events.phase2.title">RSVP and member profiles</strong>
-            <p data-i18n="events.phase2.copy">Connect by canton, city, language and interests so local events are easy to find.</p>
-          </article>
-          <article>
-            <time data-i18n="phase.three">Workshops</time>
-            <strong data-i18n="events.phase3.title">Paid workshops and retreats</strong>
-            <p data-i18n="events.phase3.copy">Learn through cooking evenings, talks, guest sessions and practical food-sourcing tours.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="map" class="section split-section">
-        <div>
-          <p class="section-label" data-i18n="map.label">Swiss food map</p>
-          <h2 data-i18n="map.title">Restaurants, farms, butchers and low-carb-friendly places.</h2>
-          <p data-i18n="map.copy">
-            A community-submitted map can become one of the most useful parts of the project: where to eat, shop and source quality food in Switzerland.
-          </p>
-        </div>
-        <div class="map-mock" aria-label="Swiss food map preview">
-          <div class="map-card zurich"><strong data-i18n="map.zurich.title">Zurich</strong><span data-i18n="map.zurich.copy">Meetups · Restaurants</span></div>
-          <div class="map-card bern"><strong data-i18n="map.bern.title">Bern</strong><span data-i18n="map.bern.copy">Farms · Butchers</span></div>
-          <div class="map-card geneva"><strong data-i18n="map.geneva.title">Geneva</strong><span data-i18n="map.geneva.copy">Keto-friendly places</span></div>
-          <div class="map-card ticino"><strong data-i18n="map.ticino.title">Ticino</strong><span data-i18n="map.ticino.copy">Regional group</span></div>
-        </div>
-        <div class="food-directory">
-          <div class="directory-heading">
-            <div>
-              <p class="section-label" data-i18n="directory.label">Starter directory</p>
-              <h3 data-i18n="directory.title">Swiss low-carb food map entries</h3>
-              <p data-i18n="directory.copy">A first set of places and online sources for meat, fish, cheese, farm markets and low-carb-friendly eating. Please check menus and availability before visiting.</p>
-            </div>
-            <label class="search-box">
-              <span data-i18n="directory.searchLabel">Search</span>
-              <input id="food-search" type="search" data-i18n-placeholder="directory.searchPlaceholder" placeholder="Search city, canton, place or tag" />
-            </label>
-          </div>
-          <div class="food-filters" aria-label="Food map filters">
-            <button class="active" type="button" data-filter="all" data-i18n="directory.filterAll">All</button>
-            <button type="button" data-filter="butcher" data-i18n="food.type.butcher">Butchers</button>
-            <button type="button" data-filter="restaurant" data-i18n="food.type.restaurant">Restaurants</button>
-            <button type="button" data-filter="market" data-i18n="food.type.market">Markets</button>
-            <button type="button" data-filter="online" data-i18n="food.type.online">Online</button>
-            <button type="button" data-filter="farm" data-i18n="food.type.farm">Farms</button>
-            <button type="button" data-filter="shop" data-i18n="food.type.shop">Shops</button>
-            <button type="button" data-filter="cheese" data-i18n="food.type.cheese">Cheese</button>
-            <button type="button" data-filter="fish" data-i18n="food.type.fish">Fish</button>
-          </div>
-          <p id="food-map-count" class="food-count"></p>
-          <div id="food-map-list" class="food-map-list" aria-live="polite"></div>
-        </div>
-        <div class="cuts-directory">
-          <div class="directory-heading">
-            <div>
-              <p class="section-label" data-i18n="cuts.label">Meat cuts finder</p>
-              <h3 data-i18n="cuts.title">Where to ask for specific cuts</h3>
-              <p data-i18n="cuts.copy">A practical starter database for finding steaks, organ meats, bones, mixed beef boxes and special cuts. Availability changes, so contact the source before travelling.</p>
-            </div>
-            <label class="search-box">
-              <span data-i18n="cuts.searchLabel">Search cuts</span>
-              <input id="cuts-search" type="search" data-i18n-placeholder="cuts.searchPlaceholder" placeholder="Search ribeye, liver, bones or farm boxes" />
-            </label>
-          </div>
-          <p id="cuts-count" class="food-count"></p>
-          <div id="cuts-list" class="cuts-list" aria-live="polite"></div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-heading">
-          <p class="section-label" data-i18n="resources.label">Practical resources</p>
-          <h2 data-i18n="resources.title">Useful tools for everyday low-carb life</h2>
-        </div>
-        <div class="resource-grid">
-          <article>
-            <h3 data-i18n="resources.shopping.title">Swiss shopping guide</h3>
-            <p data-i18n="resources.shopping.copy">Butter, eggs, cheese, meat, fish, organ meats, bone broth, mineral water and low-carb pantry basics.</p>
-          </article>
-          <article>
-            <h3 data-i18n="resources.recipes.title">Recipe library</h3>
-            <p data-i18n="resources.recipes.copy">Swiss-friendly keto and carnivore meal ideas, including raclette, fondue evenings and travel food.</p>
-          </article>
-          <article>
-            <h3 data-i18n="resources.challenges.title">30-day challenges</h3>
-            <p data-i18n="resources.challenges.copy">Low-carb reset, carnivore trial, glucose/ketone tracking, walking challenge and no ultra-processed food challenge.</p>
-          </article>
-          <article>
-            <h3 data-i18n="resources.guidelines.title">Community guidelines</h3>
-            <p data-i18n="resources.guidelines.copy">A clear boundary between peer support, personal experience and individual medical advice.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="roadmap" class="roadmap">
-        <div>
-          <p class="section-label" data-i18n="roadmap.label">Member area</p>
-          <h2 data-i18n="roadmap.title">A community space for practical low-carb living in Switzerland.</h2>
-        </div>
-        <div class="timeline">
-          <article>
-            <span data-i18n="roadmap.now.label">Connect</span>
-            <h3 data-i18n="roadmap.now.title">Meet people</h3>
-            <p data-i18n="roadmap.now.copy">Find people with similar interests and discover local activity across Switzerland.</p>
-          </article>
-          <article>
-            <span data-i18n="roadmap.next.label">Gather</span>
-            <h3 data-i18n="roadmap.next.title">Join events</h3>
-            <p data-i18n="roadmap.next.copy">RSVP for meetups, suggest new gatherings and keep track of what is happening nearby.</p>
-          </article>
-          <article>
-            <span data-i18n="roadmap.later.label">Explore</span>
-            <h3 data-i18n="roadmap.later.title">Use member tools</h3>
-            <p data-i18n="roadmap.later.copy">Browse the Swiss food map, save recipes, join challenges and share helpful local finds.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="join" class="join-section">
-        <div>
-          <p class="section-label" data-i18n="join.label">Membership</p>
-          <h2 data-i18n="join.title">Become a Low Carb Swiss member.</h2>
-          <p data-i18n="join.copy">
-            Leave your details to receive membership updates, event invitations and local group news.
-          </p>
-        </div>
-        <form>
-          <label>
-            <span data-i18n="form.name">Name</span>
-            <input type="text" name="name" autocomplete="name" />
-          </label>
-          <label>
-            <span data-i18n="form.email">Email</span>
-            <input type="email" name="email" autocomplete="email" />
-          </label>
-          <label>
-            <span data-i18n="form.location">Canton or city</span>
-            <input type="text" name="location" autocomplete="address-level2" />
-          </label>
-          <fieldset>
-            <legend data-i18n="form.interest">I am interested in</legend>
-            <label><input type="checkbox" name="interest" value="events" /> <span data-i18n="form.events">Events</span></label>
-            <label><input type="checkbox" name="interest" value="carnivore" /> <span data-i18n="form.carnivore">Carnivore</span></label>
-            <label><input type="checkbox" name="interest" value="keto" /> <span data-i18n="form.keto">Keto</span></label>
-            <label><input type="checkbox" name="interest" value="map" /> <span data-i18n="form.map">Swiss food map</span></label>
-          </fieldset>
-          <button type="button" data-i18n="form.submit">Request membership</button>
-        </form>
-      </section>
-
-      <section class="notice">
-        <strong data-i18n="notice.title">Community boundary</strong>
-        <p data-i18n="notice.copy">
-          Low Carb Swiss is for peer exchange and lifestyle community. It does not provide individual medical advice. People using medication, living with medical conditions, pregnancy, eating disorders or complex health histories should discuss dietary changes with a qualified clinician.
-        </p>
-      </section>
     </main>
 
     <footer>
@@ -295,7 +99,6 @@
       <p><a href="https://lowcarbswiss.ch">lowcarbswiss.ch</a></p>
     </footer>
 
-    <script src="food-map-data.js?v=food-map-ratings-cuts-2-20260516"></script>
-    <script src="script.js?v=food-map-ratings-cuts-2-20260516"></script>
+    <script src="script.js?v=separate-pages-20260517"></script>
   </body>
 </html>

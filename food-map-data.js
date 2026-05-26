@@ -56,6 +56,46 @@ window.foodMapEntries = [
     url: "https://www.williamsbutcherstable.ch/en/butcher-shop/"
   },
   {
+    name: "Williams ButchersTable Zug Kolinplatz",
+    city: "Zug",
+    canton: "ZG",
+    type: "butcher",
+    tags: ["meat", "butcher", "restaurant"],
+    url: "https://luma-delikatessen.ch/de/restaurants-verkaufstellen/williams-butcherstable-zug-kolinplatz/"
+  },
+  {
+    name: "Forster Metzgerei Fleisch & Feines",
+    city: "Zug",
+    canton: "ZG",
+    type: "butcher",
+    tags: ["meat", "butcher", "fish", "cheese", "shop"],
+    url: "https://www.forster-metzgerei.ch/"
+  },
+  {
+    name: "Rinderli Marcel / Metzgerei Göbli",
+    city: "Zug",
+    canton: "ZG",
+    type: "butcher",
+    tags: ["meat", "butcher", "curedMeat"],
+    url: "https://www.local.ch/de/d/zug/6300/metzgerei/rinderli-marcel-jQSr8jbtyTaF0qCWOiiNaw"
+  },
+  {
+    name: "Metzgerei Rogenmoser",
+    city: "Baar / Hünenberg",
+    canton: "ZG",
+    type: "butcher",
+    tags: ["meat", "butcher", "fish", "curedMeat"],
+    url: "https://www.metzgerei-rogenmoser.ch/metzgerei-rogenmoser/"
+  },
+  {
+    name: "Metzgerei Villiger",
+    city: "Unterägeri",
+    canton: "ZG",
+    type: "butcher",
+    tags: ["meat", "butcher", "fish"],
+    url: "https://www.metzgerei-villiger.ch/"
+  },
+  {
     name: "Churrasco Steak & Nikkei Cuisine",
     city: "Zurich",
     canton: "ZH",
@@ -88,6 +128,14 @@ window.foodMapEntries = [
     url: "https://www.zuerich.com/en/visit/shopping/weekly-market-at-burkliplatz"
   },
   {
+    name: "Eiche Metzgerei",
+    city: "Basel",
+    canton: "BS",
+    type: "butcher",
+    tags: ["meat", "butcher", "curedMeat"],
+    url: "https://eiche-metzgerei.ch/"
+  },
+  {
     name: "Markthalle Basel",
     city: "Basel",
     canton: "BS",
@@ -112,6 +160,38 @@ window.foodMapEntries = [
     url: "https://bern.com/en/news/stories-and-recommendations/berns-farmers-markets"
   },
   {
+    name: "Metzgerei Hotz Winterthur",
+    city: "Winterthur",
+    canton: "ZH",
+    type: "butcher",
+    tags: ["meat", "butcher", "cheese", "catering"],
+    url: "https://www.metzgerei-hotz.ch/"
+  },
+  {
+    name: "Metzgerei Schmid St. Gallen",
+    city: "St. Gallen",
+    canton: "SG",
+    type: "butcher",
+    tags: ["meat", "butcher", "curedMeat"],
+    url: "https://metzgereischmid.ch/"
+  },
+  {
+    name: "Metzgerei Keller Kriens",
+    city: "Kriens / Luzern",
+    canton: "LU",
+    type: "butcher",
+    tags: ["meat", "butcher", "regional"],
+    url: "https://www.keller-metzg.ch/"
+  },
+  {
+    name: "La Bouche Rit",
+    city: "Lausanne",
+    canton: "VD",
+    type: "butcher",
+    tags: ["meat", "butcher", "catering"],
+    url: "https://bouche-rit.ch/"
+  },
+  {
     name: "Lugano Food and Flower Market",
     city: "Lugano",
     canton: "TI",
@@ -134,6 +214,14 @@ window.foodMapEntries = [
     type: "shop",
     tags: ["meat", "butcher", "cheese", "restaurant", "shop"],
     url: "https://www.gabbani.com/"
+  },
+  {
+    name: "Macelleria ai Faggi",
+    city: "Lugano",
+    canton: "TI",
+    type: "butcher",
+    tags: ["meat", "butcher", "curedMeat"],
+    url: "https://www.macelleriaaifaggi.ch/"
   },
   {
     name: "Boucherie du Palais",
@@ -190,6 +278,14 @@ window.foodMapEntries = [
     type: "shop",
     tags: ["meat", "curedMeat", "cheese", "shop"],
     url: "https://www.app.graubuenden.ch/en/albert-spiess-direkt-shop"
+  },
+  {
+    name: "Metzgerei Mark Chur",
+    city: "Chur",
+    canton: "GR",
+    type: "butcher",
+    tags: ["meat", "butcher", "curedMeat", "regional"],
+    url: "https://www.metzgerei-mark.ch/de/standorte/chur-altstadtmetzgerei"
   },
   {
     name: "Globus Delicatessa Zürich",

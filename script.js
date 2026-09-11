@@ -778,9 +778,11 @@ Object.entries(foodMapTranslations).forEach(([lang, values]) => {
 
 const ratingsAndCutsTranslations = {
   en: {
-    "directory.googleRating": "Google",
+    "directory.googleRating": "Google reviews",
     "directory.communityRating": "Community",
     "directory.openMaps": "Open Maps",
+    "directory.noGoogleReviews": "No reviews",
+    "directory.reviewNote": "Google ratings checked 7 September 2026 · Scores and review counts may change.",
     "directory.newCommunityRating": "New",
     "directory.ratingsLabel": "Ratings",
     "food.type.farm": "Farms",
@@ -830,9 +832,11 @@ const ratingsAndCutsTranslations = {
     "cut.salmonFish.copy": "Fresh and frozen fish sources for low-carb meals."
   },
   de: {
-    "directory.googleRating": "Google",
+    "directory.googleRating": "Google-Rezensionen",
     "directory.communityRating": "Community",
     "directory.openMaps": "Maps öffnen",
+    "directory.noGoogleReviews": "Keine Rezensionen",
+    "directory.reviewNote": "Google-Bewertungen geprüft am 7. September 2026 · Werte können sich ändern.",
     "directory.newCommunityRating": "Neu",
     "directory.ratingsLabel": "Bewertungen",
     "food.type.farm": "Höfe",
@@ -882,9 +886,11 @@ const ratingsAndCutsTranslations = {
     "cut.salmonFish.copy": "Frische und tiefgekühlte Fischquellen für Low-Carb-Mahlzeiten."
   },
   fr: {
-    "directory.googleRating": "Google",
+    "directory.googleRating": "Avis Google",
     "directory.communityRating": "Communauté",
     "directory.openMaps": "Ouvrir Maps",
+    "directory.noGoogleReviews": "Aucun avis",
+    "directory.reviewNote": "Notes Google vérifiées le 7 septembre 2026 · Les valeurs peuvent changer.",
     "directory.newCommunityRating": "Nouveau",
     "directory.ratingsLabel": "Notes",
     "food.type.farm": "Fermes",
@@ -934,9 +940,11 @@ const ratingsAndCutsTranslations = {
     "cut.salmonFish.copy": "Sources de poisson frais et surgelé pour repas low-carb."
   },
   it: {
-    "directory.googleRating": "Google",
+    "directory.googleRating": "Recensioni Google",
     "directory.communityRating": "Community",
     "directory.openMaps": "Apri Maps",
+    "directory.noGoogleReviews": "Nessuna recensione",
+    "directory.reviewNote": "Valutazioni Google verificate il 7 settembre 2026 · I valori possono cambiare.",
     "directory.newCommunityRating": "Nuovo",
     "directory.ratingsLabel": "Valutazioni",
     "food.type.farm": "Fattorie",
@@ -1083,24 +1091,30 @@ function escapeHTML(value) {
 }
 
 function buildGoogleMapsUrl(entry) {
-  const query = `${entry.name} ${entry.city} ${entry.canton} Switzerland`;
+  const query = entry.googleMapsQuery || `${entry.name} ${entry.city} ${entry.canton} Switzerland`;
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
 
-function formatRating(rating) {
+function formatRating(rating, lang) {
   if (!rating?.score) {
     return "";
   }
 
-  return rating.count ? `${rating.score.toFixed(1)} (${rating.count})` : rating.score.toFixed(1);
+  const locale = lang === "en" ? "en-CH" : `${lang}-CH`;
+  const count = new Intl.NumberFormat(locale).format(rating.count);
+  return rating.count ? `${rating.score.toFixed(1)} (${count})` : rating.score.toFixed(1);
 }
 
 function formatCommunityRating(entry, lang) {
-  return formatRating(entry.communityRating) || getCopy(lang, "directory.newCommunityRating");
+  return formatRating(entry.communityRating, lang) || getCopy(lang, "directory.newCommunityRating");
 }
 
 function formatGoogleRating(entry, lang) {
-  return formatRating(entry.googleRating) || getCopy(lang, "directory.openMaps");
+  if (entry.googleRating && entry.googleRating.count === 0) {
+    return getCopy(lang, "directory.noGoogleReviews");
+  }
+
+  return formatRating(entry.googleRating, lang) || getCopy(lang, "directory.openMaps");
 }
 
 function getEntryCutSearchText(entry) {

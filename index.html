@@ -8,10 +8,11 @@
       name="description"
       content="Low Carb Swiss is a Switzerland-based community for low-carb, keto and carnivore lifestyles, local events, food sourcing, recipes and member resources."
     />
-    <link rel="stylesheet" href="styles.css?v=separate-pages-20260517" />
+    <link rel="stylesheet" href="styles.css?v=warm-redesign-20260907" />
   </head>
   <body data-page="home">
     <header class="site-header">
+      <div class="header-inner">
       <a class="brand" href="index.html" aria-label="Low Carb Swiss home">
         <span class="brand-mark">LC</span>
         <span>
@@ -31,32 +32,35 @@
         <button type="button" data-lang="fr">FR</button>
         <button type="button" data-lang="it">IT</button>
       </div>
-      <a class="header-action" href="member-area.html#join" data-i18n="nav.cta">Become a member</a>
+        <a class="header-action" href="member-area.html#join" data-i18n="nav.cta">Become a member</a>
+      </div>
     </header>
 
     <main id="top">
       <section class="section home-hero">
-        <div>
+        <div class="home-hero-copy">
           <p class="section-label" data-i18n="hero.eyebrow">Switzerland's low-carb community</p>
           <h1 data-i18n="hero.title">Meet people eating low-carb, keto and carnivore in Switzerland.</h1>
-        </div>
-        <div>
           <p data-i18n="hero.copy">A local community for exchanging ideas, finding Swiss food sources, organizing events, and building a practical lifestyle around real food.</p>
           <div class="page-actions">
             <a class="primary-button" href="member-area.html#join" data-i18n="hero.primary">Become a member</a>
             <a class="outline-button" href="events.html" data-i18n="hero.secondary">Explore events</a>
           </div>
         </div>
+        <figure class="home-hero-media">
+          <img src="assets/low-carb-swiss-hero.png" alt="Swiss alpine table with local low-carb food" />
+          <figcaption>Local food · Swiss places · Shared tables</figcaption>
+        </figure>
       </section>
 
       <section class="intro">
+        <p class="section-label" data-i18n="intro.label">Built for Switzerland</p>
         <div>
-          <p class="section-label" data-i18n="intro.label">Built for Switzerland</p>
           <h2 data-i18n="intro.title">A friendly umbrella for low-carb, keto, animal-based and carnivore lifestyles.</h2>
+          <p data-i18n="intro.copy">
+            Low Carb Swiss is practical, social and non-medical: local meetups, food ideas, Swiss sourcing, recipes, challenges and peer support.
+          </p>
         </div>
-        <p data-i18n="intro.copy">
-          Low Carb Swiss is practical, social and non-medical: local meetups, food ideas, Swiss sourcing, recipes, challenges and peer support.
-        </p>
       </section>
 
       <section class="section link-section" aria-labelledby="explore-title">
@@ -92,6 +96,15 @@
         </div>
       </section>
 
+      <section class="home-join" aria-labelledby="home-join-title">
+        <div>
+          <p class="section-label" data-i18n="join.label">Membership</p>
+          <h2 id="home-join-title" data-i18n="join.title">Become a Low Carb Swiss member.</h2>
+          <p data-i18n="join.copy">Leave your details to receive membership updates, event invitations and local group news.</p>
+        </div>
+        <a class="dark-button" href="member-area.html#join" data-i18n="form.submit">Request membership</a>
+      </section>
+
     </main>
 
     <footer>
@@ -99,7 +112,7 @@
       <p><a href="https://lowcarbswiss.ch">lowcarbswiss.ch</a></p>
     </footer>
 
-    <script src="script.js?v=separate-pages-20260517"></script>
+    <script src="script.js?v=warm-redesign-20260907"></script>
     <!-- Cloudflare Web Analytics -->
     <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"1f5ea6bad378484a88cebcc611ad8855"}'></script>
     <!-- End Cloudflare Web Analytics -->
